@@ -15,5 +15,4 @@ public class BaseTest {
         email = System.getenv("PICS_EMAIL");
         password = System.getenv("PICS_PASSWORD");
     }
-
 }

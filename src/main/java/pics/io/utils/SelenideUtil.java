@@ -6,7 +6,7 @@ import org.openqa.selenium.Cookie;
 import java.util.Map;
 
 /**
- * The util class which contains a common actions that involve Selenide and/or Selenium WebDriver
+ * The util class which contains a common actions/methods that involve Selenide and/or Selenium WebDriver
  */
 public class SelenideUtil {
 
