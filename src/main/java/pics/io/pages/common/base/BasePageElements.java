@@ -1,9 +1,9 @@
-package pics.io.pages.common;
+package pics.io.pages.common.base;
 
 import org.openqa.selenium.By;
 
 /**
- * Elements which are used by {@link pics.io.pages.common.BasePage}
+ * Elements which are used by {@link BasePage}
  */
 public class BasePageElements {
 

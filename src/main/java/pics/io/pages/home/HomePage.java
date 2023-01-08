@@ -3,6 +3,7 @@ package pics.io.pages.home;
 import com.codeborne.selenide.Selenide;
 import pics.io.services.UrlProvider;
 
+import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 
 /**
@@ -25,4 +26,10 @@ public class HomePage {
         $(elements.getLoginButton()).click();
         return new LoginPopup();
     }
+
+    public HomePage assertLoginButtonIsVisible() {
+        $(elements.getLoginButton()).shouldBe(visible);
+        return this;
+    }
+
 }

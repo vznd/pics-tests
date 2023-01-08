@@ -3,7 +3,7 @@ package pics.io.pages.home;
 import org.openqa.selenium.By;
 
 /**
- * Elements which are used by {@link pics.io.pages.home.LoginPopup}
+ * Elements which are used by {@link LoginPopup}
  */
 public class LoginPopupElements {
 

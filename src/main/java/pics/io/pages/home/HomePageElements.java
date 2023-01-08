@@ -3,7 +3,7 @@ package pics.io.pages.home;
 import org.openqa.selenium.By;
 
 /**
- * Elements which are used by {@link pics.io.pages.home.HomePage}
+ * Elements which are used by {@link HomePage}
  */
 public class HomePageElements {
 

@@ -1,6 +1,6 @@
 package pics.io.pages.collections;
 
-import pics.io.pages.common.BasePage;
+import pics.io.pages.common.base.BasePage;
 
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
