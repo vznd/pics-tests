@@ -10,7 +10,7 @@ public class BaseTest {
     public String email;
     public String password;
 
-    @BeforeTest
+    @BeforeTest(description = "Retrieve user credentials")
     public void initUser() {
         email = System.getenv("PICS_EMAIL");
         password = System.getenv("PICS_PASSWORD");

@@ -1,7 +1,7 @@
 package pics.io.pages.common.tool;
 
+import io.qameta.allure.Step;
 import pics.io.pages.common.logout.LogoutPopup;
-import pics.io.pages.home.HomePage;
 
 import static com.codeborne.selenide.Selenide.$;
 
@@ -10,12 +10,13 @@ import static com.codeborne.selenide.Selenide.$;
  */
 public class ToolBar {
 
-    public ToolBarElements elements;
+    public final ToolBarElements elements;
 
     public ToolBar() {
         elements = new ToolBarElements();
     }
 
+    @Step("Click logout button in tool bar")
     public LogoutPopup clickLogoutButton() {
         $(elements.getLogoutButton()).click();
         return new LogoutPopup();

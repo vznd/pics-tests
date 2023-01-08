@@ -1,6 +1,7 @@
 package pics.io.actions;
 
 import com.codeborne.selenide.Selenide;
+import io.qameta.allure.Step;
 import io.restassured.response.Response;
 import pics.io.services.UrlProvider;
 import pics.io.utils.SelenideUtil;
@@ -12,6 +13,7 @@ import java.util.Map;
  */
 public class BaseActions {
 
+    @Step("Login via http")
     public static void silentLogin(String email, String password) {
         // Open browser to be able to set cookies
         Selenide.open(UrlProvider.basesUrl);
